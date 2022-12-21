@@ -1,0 +1,73 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar
+{
+
+    display:flex;
+    justify-content:center;
+    background-color: rgb(103, 92, 92);
+
+ }
+
+ .navbar ul
+{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-left: 5vw;
+    justify-content: baseline;
+ }
+
+ .navbar ul li
+{
+    list-style: none;
+    padding-right: 5vw;
+}
+
+.navbar ul li a
+{
+    text-decoration: none;
+    padding: 50px;
+    
+}
+
+button 
+{
+height: 5vh;
+background-color: rgb(207, 247, 247);
+border: none;
+}
+
+main
+{
+background-image: url(../image/chemin\ nature.jfif);
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+.retour
+{
+    font-size: 25px;
+}
+
+p
+{
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.text
+{
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align:center;
+    
+    padding-right: 35vw;
+}
