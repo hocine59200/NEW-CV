@@ -40,11 +40,18 @@ button
 height: 5vh;
 background-color: rgb(207, 247, 247);
 border: none;
+border-radius: 1em;
+
+}
+
+button:hover
+{
+transform: translateY(-5px);
 }
 
 main
 {
-background-image: url(../image/chemin\ nature.jfif);
+background-image: url(../image/Color-Drops-Background-Animation.jpg);
 height: 100vh;
 background-size: cover;
 background-repeat: no-repeat;
@@ -52,15 +59,29 @@ background-position: center;
 
 }
 
-.retour
+main
 {
-    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+.retour a
+{
+    font-size: 21px;
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    
 }
 
 p
 {
-    color: aliceblue;
+    color: rgb(247, 249, 250);
     font-size: 40px;
+    padding: 250px;
+    text-align: center;
 }
 
 .text
